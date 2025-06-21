@@ -37,34 +37,4 @@ Welcome to my implementation of the 🔬 **LoRA (Low-Rank Adaptation)** paper, a
 ├── Finetuning_LORA.ipynb       # Main training notebook 📓
 ├── README.md                   # You're reading it! 😎
 ├── LoRA-Paper.pdf              # The original LoRA paper 📄
-└── results/                    # (Optional) Sample predictions & logs 📊
-```
 
----
-
-## 📦 Installation & Requirements
-
-```bash
-pip install transformers datasets peft bitsandbytes
-```
-
-✅ Tested on Google Colab with a T4 GPU.
-
----
-
-## 💬 Credits & Notes
-
-This is a **faithful implementation of the LoRA paper**, aimed at understanding how **parameter-efficient fine-tuning** works in practice.
-
-📌 **Goal:** Learn-by-doing → replicate academic papers → scale up 🚀  
-📎 Paper is included in this repo for reference.
-
----
-
-## 🤖 Stay tuned
-
-More experiments coming soon:
-- 📐 Chain-of-Thought reasoning on GSM8K
-- 📈 Accuracy benchmarking across models
-
-If you liked this, feel free to ⭐️ the repo or fork for your own LoRA adventures!
